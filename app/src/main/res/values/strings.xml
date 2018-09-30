@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Coursework1</string>
+    <string name="title_activity_maps">Map</string>
+
+<!--TFL URL Strings-->
+    <string name="tfl_nearby_stoppoint_url">
+        https://api.tfl.gov.uk/StopPoint?stopTypes=
+    </string>
+    <string name="tfl_tube_id">NaptanMetroStation</string>
+    <string name="tfl_bus_id">NaptanPublicBusCoachTram</string>
+    <string name="tfl_nearby_bikepoint_url">
+        https://api.tfl.gov.uk/BikePoint?
+    </string>
+    <string name="tfl_departure_info_url">
+        https://api.tfl.gov.uk/StopPoint/
+    </string>
+    <string name="tfl_departure_info_end">
+        /Arrivals
+    </string>
+    <string name="tfl_app_credentials">
+        &amp;app_id=b5772bbe&amp;app_key=52dab86e941486e8cdc5d639440b0334
+    </string>
+
+<!--MainMenu -->
+    <string name="title_activity_settings">Main Menu</string>
+    <string name="location_hint">e.g. King\'s cross</string>
+    <string name="location_label">Your Location</string>
+    <string name="distance_label">Distance Radius (meters):</string>
+    <string name="find_txt">Find!</string>
+    <string name="location_extension_txt">, London, England</string>
+    <string name="bike">Bike</string>
+    <string name="bus">Bus</string>
+    <string name="tube">Tube</string>
+    <string name="modes_label">Modes</string>
+    <string name="friend_txt">Friends</string>
+    <string name="send_location_text">Send Your Location</string>
+    <string name="send_request_txt">Send Friend Request</string>
+    <string name="no_friends_error">No friends in the directory!</string>
+    <string name="view_map_txt">View Map</string>
+
+<!-- Friends Page -->
+    <string name="title_activity_friends">Friends List</string>
+    <string name="delete_friend">Delete</string>
+    <string name="phone_hint">e.g. 07555444321</string>
+    <string name="accept_friend_txt">Accept Friend Request</string>
+    <string name="phone_input_error">Enter a phone number!</string>
+    <string name="your_name_hint">Enter YOUR name</string>
+    <string name="pending_requests">Friend Requests</string>
+    <string name="accepted_friends">Accepted Friends</string>
+    <string name="delete_pending">Delete</string>
+    <string name="accept_pending">Accept</string>
+
+<!-- Used in Maps display-->
+    <string name="meeting_string">wants to meet at</string>
+    <string name="is_here_string">is located at</string>
+    <string name="send_meeting_text">Send Meet Point</string>
+
+</resources>
